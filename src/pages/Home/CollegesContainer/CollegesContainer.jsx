@@ -7,7 +7,7 @@ const CollegesContainer = () => {
     return (
         <div>
             <Container>
-                <div className="flex justify-between gap-6 pb-24">
+                <div className="md:flex space-y-8 md:space-y-0 md:justify-between gap-6 pb-24">
                     <div className="card w-full bg-base-100 shadow-xl">
                         <figure><img src={image1} alt="College image" className="rounded-md"/></figure>
                         <div className="card-body bg-slate-100">
